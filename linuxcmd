@@ -1,0 +1,61 @@
+#### system ####
+
+uname -a    == shows the information of the system (system name version and all info)
+
+hostname   == system name only 
+
+uname -r   == show kernal release info.
+
+hostname -i  == show ip of system / ip a
+
+last reboot  == show history of reboot
+
+date ,cal   
+
+.......................................
+
+### HARDWARE ###
+
+free -m   == show use memory 
+
+cat /proc/cpuinfo  == CPU model (processer all details )
+
+cat /proc/meminfo  == memory information in details
+
+lshw  == system hardware info.
+
+lsusb -tv  == show USB devices
+
+.....................................
+
+### NETWORK ###
+
+dig domain  == get DNS information for domain
+
+dig -x host == reverse lookup host (same info as above...)
+
+host google.com  == show DNS ip adress for the name (ip and ipv6 for name )
+
+wget file    / yum install file /  download file 
+
+ping host  == send echo request to the test connection
+
+~ netstat -tupl == list active connection to / from system
+
+    ifconfig -a  == show all network ports and ip adress
+
+
+.......................
+
+~~~users
+~~~search
+
+
+
+gpg -c file1  == encrypt the file (file1 must be exist)
+
+gpg file1.gpg  == decrypt ...
+
+ps == currently active procesess
+
+top == display all running procesess
